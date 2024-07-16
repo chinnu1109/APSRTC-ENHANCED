@@ -1,0 +1,29 @@
+
+
+form{
+    width: 40%;
+    margin: 30px auto; /* Center the container horizontally */
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    justify-content: center;
+}
+
+.rating-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.filled {
+    color: gold;
+}
+
+button{
+    width: 200px;
+    
+}

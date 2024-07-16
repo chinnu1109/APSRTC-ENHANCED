@@ -1,0 +1,25 @@
+@media print {
+	-webkit-print-color-adjust: exact !important;
+	transition: none !important;
+	@page {
+	  margin: 0.1in 0.5in 0.1in 0.5in ;
+	}
+	img {
+		display: block;
+	}
+	.printOnly{
+	}
+	body {
+		margin: 0px !important;
+  		border-top: solid 5px #ee2b39;
+	}
+}
+
+@page {
+	margin: 0.1in 0.5in 0.1in 0.5in ;
+}
+
+body {
+	margin: 0px !important;
+  	border-top: solid 5px #ee2b39;
+}

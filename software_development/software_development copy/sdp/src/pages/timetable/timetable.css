@@ -1,0 +1,48 @@
+.input-field {
+  border: 12px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  width: 200px; /* Adjust width as needed */
+  font-size: 16px; 
+  height: 100px;
+}
+
+/* Style for the suggestions container */
+.suggestions-container {
+  position: relative;
+}
+
+/* Style for the suggestions list */
+.suggestions-list {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 200px; /* Adjust width as needed */
+  max-height: 150px; /* Adjust maximum height as needed */
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+/* Style for suggestion items */
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Style for suggestion items when hovered */
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+  .container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Set container height */
+  }
+  
+  .image {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+  }

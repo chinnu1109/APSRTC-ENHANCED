@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, each taking up 1 fraction of available space */
+    gap: 20px; /* Adjust gap between images */
+}
+.image1{
+    width: 100%;
+    margin-top: 20px;
+}
+.image2 {
+    flex: 1; /* Let each image take up equal space */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}

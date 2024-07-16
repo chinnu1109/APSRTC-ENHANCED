@@ -1,0 +1,93 @@
+/* Parcel Form Styles */
+.form-group {
+    margin-bottom: 20px;
+  }
+  form{
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+  }
+  .form-container {
+    margin: 30px auto; /* Adjusted margin to center the form horizontally */
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  small {
+    color: #666;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: black;
+    border: 1px solid red; /* Changed border to match the hover effect */
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: red;
+    color: white; /* Changed text color on hover */
+    border: 1px solid white; /* Added border on hover to match the background color */
+  }
+  .background-container {
+    position: relative;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    width: 20%;
+    height: auto;
+  }
+
+  .container {
+    padding: 300px;
+    margin: 600px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .message {
+    font-size: 18px;
+  }
+  
+  .image {
+    margin: 0px;
+    height:50%;
+    width: 60%;
+    margin-left: 400px;
+  }
+  
